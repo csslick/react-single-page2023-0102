@@ -1,0 +1,30 @@
+html {
+  /* 부드러운 스크롤(smooth scroll) */
+  scroll-behavior: smooth;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style-type: none;
+}
+
+section {
+  background: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+section h1 {
+  color: #fff;
+  margin-bottom: 1em;
+}
